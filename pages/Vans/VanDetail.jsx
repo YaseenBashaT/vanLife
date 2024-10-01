@@ -52,7 +52,7 @@ export default function VanDetail() {
                     <h2>{van.name}</h2>
                     <p className="van-price"><span>${van.price}</span>/day</p>
                     <p>{van.description}</p>
-                    <button className="link-button">Rent this van</button>
+                    <button className="link-button" onClick={() => window.location.href = "/pages/Host/pay.html"} >Rent this van</button>
                 </div>
             )}
         </div>
