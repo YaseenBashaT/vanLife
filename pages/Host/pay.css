@@ -1,0 +1,68 @@
+.payment-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+.payment-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.payment-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.payment-container label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.payment-container input[type="text"],
+.payment-container input[type="number"],
+.payment-container input[type="date"],
+.payment-container input[type="email"] {
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.payment-container input[type="submit"] {
+    padding: 10px;
+    background-color: #ff8c38;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.payment-container input[type="submit"]:hover {
+    background-color: #ff8c38;
+}
+
+.upi-payment {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.upi-payment:hover {
+    background-color: #218838;
+}
+
+.card-icons {
+    margin-top: 20px;
+    text-align: center;
+}
